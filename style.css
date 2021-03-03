@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+input {
+  background: #FFFFFF !important;
+  border: 1px solid #3563B7 !important;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+  padding: 10px 15px !important;
+}
+
+.form-signin {
+  width: 450px;
+  padding: 45px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 99, 154, 0.12);
+}
+
+.form-signin .title {
+  font-size: 26px;
+  line-height: 30px;
+  color: #3563B7;
+}
+
+.form-signin .desc {
+  font-size: 12px;
+  line-height: 14px;
+  color: #878787;
+}
+
+.form-signin .link-login {
+  color: #7BA5F3;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form-signin button {
+  background: linear-gradient(91.51deg, #3563B7 21.88%, #007EF9 100.95%);
+  box-shadow: 0px 4px 25px rgba(63, 82, 253, 0.2);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: capitalize;
+  padding: 12px;
+}
+
+@media only screen and (max-width: 450px) {
+  .form-signin {
+    width: 100%;
+    padding: 30px !important;
+    box-shadow: none;
+  }
+
+  .form-signin .desc {
+    text-align: left !important;
+  }
+}
