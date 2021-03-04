@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link href="vendor/slider/css/bootstrap-slider.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/settings.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="border-right" id="sidebar-wrapper">
+        <div class="logo mb-5">LOGO</div>
+        <div class="list-group list-group-flush">
+          <a href="#" class="list-group-item list-group-item-action">
+            <img class="nav-icon" src="img/svg/pie-chart.svg" alt="" />
+            Dashboard
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img class="nav-icon" src="img/svg/user.svg" alt="" />
+            User Account
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img class="nav-icon" src="img/svg/invoice.svg" alt="" />
+            Billing & Invoice
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <img class="nav-icon" src="img/svg/support.svg" alt="" />
+            Support
+          </a>
+          <a href="#" class="list-group-item list-group-item-action active">
+            <img class="nav-icon" src="img/svg/setting.svg" alt="" />
+            Settings
+          </a>
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav class="navbar border-bottom navbar-desktop">
+          <div class="breadcrumbs">
+            <h1 class="title">SETTINGS</h1>
+            <p>
+              <a href="#">Dashboard</a>
+              <span>></span>
+              <span>Settings</span>
+            </p>
+          </div>
+
+          <div class="navbar-right">
+            <span>
+              Hey
+              <a href="#">John</a>
+            </span>
+            <a class="ml-3" href="#">
+              <img class="avatar" src="img/avatar.png" alt="" />
+            </a>
+          </div>
+        </nav>
+
+        <nav class="navbar border-bottom navbar-mobile">
+          <div class="navbar-left d-flex">
+            <button
+              class="navbar-toggler p-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#hamburger"
+              aria-controls="hamburger"
+              aria-expanded="false"
+            >
+              <img src="img/svg/menu.svg" alt="" />
+            </button>
+            <a class="logo p-0 pl-4" href="#">LOGO</a>
+          </div>
+
+          <div class="navbar-right">
+            <a class="ml-3" href="#">
+              <img class="avatar" src="img/avatar.png" alt="" />
+            </a>
+          </div>
+
+          <div
+            class="collapse navbar-collapse bg-light border-all"
+            id="hamburger"
+          >
+            <div class="list-group list-group-flush">
+              <a href="#" class="list-group-item list-group-item-action">
+                <img class="nav-icon" src="img/svg/pie-chart.svg" alt="" />
+                Dashboard
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <img class="nav-icon" src="img/svg/user.svg" alt="" />
+                User Account
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <img class="nav-icon" src="img/svg/invoice.svg" alt="" />
+                Billing & Invoice
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <img class="nav-icon" src="img/svg/support.svg" alt="" />
+                Support
+              </a>
+              <a href="#" class="list-group-item list-group-item-action active">
+                <img class="nav-icon" src="img/svg/setting.svg" alt="" />
+                Settings
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container-fluid cflex">
+          <div class="row row-fixed d-flex d-flex-wrap">
+            <div class="col-xl-3 col-lg-6 col-sm-12 mb-4">
+              <div class="ccard bg-white cshadow-1 h-100">
+                <h2 class="mb-4 mt-2 title">CONNECT POSHMARK</h2>
+                <button class="cbtn cbtn-red cbtn-sm cshadow-2">
+                  Connect Your PoshMark Account
+                </button>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12 mb-4">
+              <div class="ccard bg-white cshadow-1 h-100">
+                <div class="heading">
+                  <h2 class="mb-2 title">AUTO UNFOLLOW</h2>
+                  <p class="desc">
+                    Auto Unfollow automatically unfollows users you have
+                    followed but have not followed you back within 7 days.
+                  </p>
+                </div>
+
+                <div class="switch">
+                  <input
+                    type="checkbox"
+                    id="switch-poshmark"
+                    class="checkbox"
+                  />
+                  <label for="switch-poshmark" class="toggle">
+                    <p>Off&nbsp;&nbsp;On</p>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12 mb-4">
+              <div class="ccard bg-white cshadow-1 h-100">
+                <div class="heading">
+                  <h2 class="mb-2 title">AUTO SHARE</h2>
+                  <p class="desc">
+                    This module automatically shares your product listings to
+                    your followers and / or Posh Parties to give more
+                    visibility.
+                  </p>
+                </div>
+
+                <div class="switch-group">
+                  <div class="switch">
+                    <input
+                      type="checkbox"
+                      id="switch-unfollow"
+                      class="checkbox"
+                    />
+                    <label for="switch-unfollow" class="toggle">
+                      <p>Off&nbsp;&nbsp;On</p>
+                    </label>
+                  </div>
+                  <div id="share-details" class="w-100 mt-1">
+                    <span class="clabel-sm">
+                      Followers
+                      <div class="switch d-inline ml-3">
+                        <input
+                          type="checkbox"
+                          id="switch-details-followers"
+                          class="checkbox"
+                        />
+                        <label for="switch-details-followers" class="toggle">
+                          <p>Off&nbsp;&nbsp;On</p>
+                        </label>
+                      </div>
+                    </span>
+                    <span class="clabel-sm ml-3">
+                      Posh Parties
+                      <div class="switch d-inline ml-3">
+                        <input
+                          type="checkbox"
+                          id="switch-details-parties"
+                          class="checkbox"
+                        />
+                        <label for="switch-details-parties" class="toggle">
+                          <p>Off&nbsp;&nbsp;On</p>
+                        </label>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12 mb-4">
+              <div class="ccard bg-white cshadow-1 h-100">
+                <div class="heading">
+                  <h2 class="mb-2 title">REORGANIZE CLOSET</h2>
+                  <p class="desc">
+                    This module automatically reorganizes any live product
+                    listings in your closet to boost visibility.
+                  </p>
+                </div>
+
+                <div class="switch">
+                  <input type="checkbox" id="switch-closet" class="checkbox" />
+                  <label for="switch-closet" class="toggle">
+                    <p>Off&nbsp;&nbsp;On</p>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-flexible d-flex d-flex-wrap">
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+              <div class="h-100">
+                <div class="ccard bg-white cshadow-1 auto-follow">
+                  <div class="heading">
+                    <h2 class="mb-2 title">AUTO FOLLOW</h2>
+                    <p class="desc">
+                      This module automatically follows the followers of users
+                      randomly, with a % following you back (our software
+                      selects the most relevant users to follow) (Auto). OR
+                      Automatically follows the followers of users you choose
+                      (Custom).
+                    </p>
+                  </div>
+
+                  <div class="switch">
+                    <input
+                      type="checkbox"
+                      id="switch-auto-follow"
+                      class="checkbox"
+                    />
+                    <label for="switch-auto-follow" class="toggle">
+                      <p>Off&nbsp;&nbsp;On</p>
+                    </label>
+                  </div>
+
+                  <div id="panel-detail-af">
+                    <p class="clabel-md mt-2">No. of Of Follower/Day</p>
+                    <div class="slider-wrapper mt-3">
+                      <input type="text" class="range-slider" />
+                      <span class="slider-ticks min">10</span>
+                      <span class="slider-ticks max">2023</span>
+                    </div>
+                    <div class="cflex-row mt-3">
+                      <div class="cflex-fixed checkbox-wrapper">
+                        <span class="clabel-sm">Auto/Random</span>
+                        <input
+                          id="follower-random"
+                          type="checkbox"
+                          class="ml-4"
+                        />
+                      </div>
+
+                      <div class="cflex-fixed checkbox-wrapper">
+                        <span class="clabel-sm">Custom</span>
+                        <input
+                          id="follower-custom"
+                          type="checkbox"
+                          class="ml-4"
+                        />
+                      </div>
+                    </div>
+
+                    <div id="user-selector-af" class="mt-4 user-selector">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Add Users"
+                      />
+                      <div class="user-list">
+                        <span class="user">
+                          John Doe
+                          <i class="fas fa-times ml-2"></i>
+                        </span>
+                        <span class="user">
+                          John Doe
+                          <i class="fas fa-times ml-2"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+              <div class="h-100">
+                <div class="ccard bg-white cshadow-1 auto-comments">
+                  <div class="heading">
+                    <h2 class="mb-2 title">AUTO COMMENTS</h2>
+                    <p class="desc">
+                      This module posts comments to competitors product listings
+                      randomly to give you more visibility. You can decide what
+                      comments are posted and the % of time each comment is
+                      used.
+                    </p>
+                  </div>
+
+                  <div class="switch">
+                    <input
+                      type="checkbox"
+                      id="switch-comment"
+                      class="checkbox"
+                    />
+                    <label for="switch-comment" class="toggle">
+                      <p>Off&nbsp;&nbsp;On</p>
+                    </label>
+                  </div>
+
+                  <div id="panel-detail-ac">
+                    <p class="clabel-md mt-2">No. of Of Follower/Day</p>
+                    <div class="slider-wrapper mt-3">
+                      <input type="text" class="range-slider" />
+                      <span class="slider-ticks min">10</span>
+                      <span class="slider-ticks max">2023</span>
+                    </div>
+                    <div class="input-group mt-4 mb-3">
+                      <div class="cinput-wrapper mb-3">
+                        <div class="cinput-text">
+                          <label for="">Description</label>
+                          <input
+                            type="text"
+                            class="cinput form-control"
+                            placeholder="Comment"
+                          />
+                        </div>
+                        <div class="cinput-number">
+                          <input type="number" class="form-control" />
+                        </div>
+                        <span class="reset">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </div>
+                      <div class="cinput-wrapper mb-3">
+                        <div class="cinput-text">
+                          <label for="">Description</label>
+                          <input
+                            type="text"
+                            class="cinput form-control"
+                            placeholder="Comment"
+                          />
+                        </div>
+                        <div class="cinput-number">
+                          <input type="number" class="form-control" />
+                        </div>
+                        <span class="reset">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </div>
+                      <div class="cinput-wrapper mb-3">
+                        <div class="cinput-text">
+                          <label for="">Description</label>
+                          <input
+                            type="text"
+                            class="cinput form-control"
+                            placeholder="Comment"
+                          />
+                        </div>
+                        <div class="cinput-number">
+                          <input type="number" class="form-control" />
+                        </div>
+                        <span class="reset">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </div>
+                      <div class="cinput-wrapper mb-3">
+                        <div class="cinput-text">
+                          <label for="">Description</label>
+                          <input
+                            type="text"
+                            class="cinput form-control"
+                            placeholder="Comment"
+                          />
+                        </div>
+                        <div class="cinput-number">
+                          <input type="number" class="form-control" />
+                        </div>
+                        <span class="reset">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </div>
+                      <div class="cinput-wrapper mb-3">
+                        <div class="cinput-text">
+                          <label for="">Description</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Comment"
+                          />
+                        </div>
+                        <div class="cinput-number">
+                          <input type="number" class="form-control" />
+                        </div>
+                        <span class="reset">
+                          <i class="fas fa-times"></i>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="totals">
+                      <div class="mb-2 d-flex">
+                        <span class="w-75 total-desc text-right">
+                          % Value must add up to
+                        </span>
+                        <span class="w-25 total-value text-right">100%</span>
+                      </div>
+                      <div class="mb-2 d-flex">
+                        <span class="w-75 total-desc text-right">
+                          Total % Value
+                        </span>
+                        <span class="w-25 total-value text-right">90%</span>
+                      </div>
+                      <div class="d-flex">
+                        <span class="w-75 total-desc text-right">
+                          Total Number of Comments
+                        </span>
+                        <span class="w-25 total-value text-right">7</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+              <div class="h-100">
+                <div class="ccard bg-white cshadow-1 auto-likes">
+                  <div class="heading">
+                    <h2 class="mb-2 title">AUTO LIKES</h2>
+                    <p class="desc">
+                      This module automatically likes the products of sellers
+                      randomly (our software selects the most relevant products
+                      to like) (Auto). OR Automatically like the products of
+                      users you choose (Custom).
+                    </p>
+                  </div>
+
+                  <div class="switch">
+                    <input type="checkbox" id="switch-likes" class="checkbox" />
+                    <label for="switch-likes" class="toggle">
+                      <p>Off&nbsp;&nbsp;On</p>
+                    </label>
+                  </div>
+
+                  <div id="panel-detail-al">
+                    <p class="clabel-md mt-2">No. of Likes/Day</p>
+                    <div class="slider-wrapper mt-3">
+                      <input type="text" class="range-slider" />
+                      <span class="slider-ticks min">10</span>
+                      <span class="slider-ticks max">2023</span>
+                    </div>
+                    <div class="cflex-row mt-3">
+                      <div class="cflex-fixed checkbox-wrapper">
+                        <span class="clabel-sm">Auto/Random</span>
+                        <input
+                          id="follower-random"
+                          type="checkbox"
+                          class="ml-4"
+                        />
+                      </div>
+
+                      <div class="cflex-fixed checkbox-wrapper">
+                        <span class="clabel-sm">Custom</span>
+                        <input id="likes-custom" type="checkbox" class="ml-4" />
+                      </div>
+                    </div>
+
+                    <div id="user-selector-al" class="mt-4 user-selector">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Add Users"
+                      />
+                      <div class="user-list">
+                        <span class="user">
+                          John Doe
+                          <i class="fas fa-times ml-2"></i>
+                        </span>
+                        <span class="user">
+                          John Doe
+                          <i class="fas fa-times ml-2"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-6 col-sm-12">
+              <div class="h-100 cflex">
+                <div class="ccard row-fixed bg-white cshadow-1 mb-4">
+                  <div class="heading">
+                    <h2 class="mb-2 title">AUTO BUNDLES</h2>
+                    <p class="desc">
+                      This module automatically sends users that like your
+                      listings bundles filled with products they will love.
+                    </p>
+                  </div>
+
+                  <div class="switch">
+                    <input
+                      type="checkbox"
+                      id="switch-bundle"
+                      class="checkbox"
+                    />
+                    <label for="switch-bundle" class="toggle">
+                      <p>Off&nbsp;&nbsp;On</p>
+                    </label>
+                  </div>
+                </div>
+
+                <div
+                  class="ccard row-flexible bg-white cshadow-1 mb-3 auto-offers"
+                >
+                  <div class="heading">
+                    <h2 class="mb-2 title">AUTO OFFERS</h2>
+                    <p class="desc">
+                      This module automatically sends users that like your
+                      listings special offers.
+                    </p>
+                  </div>
+
+                  <div class="switch">
+                    <input type="checkbox" id="switch-offer" class="checkbox" />
+                    <label for="switch-offer" class="toggle">
+                      <p>Off&nbsp;&nbsp;On</p>
+                    </label>
+                  </div>
+
+                  <div id="panel-detail-ao">
+                    <div class="mt-4">
+                      <div class="checkbox-wrapper">
+                        <input id="follower-random" type="checkbox" />
+                        <span class="clabel-lg ml-4"
+                          >Profit goal in dollars</span
+                        >
+                      </div>
+                      <p class="clabel-xs">
+                        You will always make at least this amount from any offer
+                        we send.
+                      </p>
+
+                      <div class="offer-items">
+                        <span class="offer-item active">$5</span>
+                        <span class="offer-item">$10</span>
+                        <span class="offer-item">$25</span>
+                        <span class="offer-item">$50</span>
+                        <span class="offer-item">$100</span>
+                      </div>
+                    </div>
+
+                    <div class="mt-5">
+                      <div class="checkbox-wrapper">
+                        <input id="follower-random" type="checkbox" />
+                        <span class="clabel-lg ml-4"
+                          >Profit goal in dollars</span
+                        >
+                      </div>
+                      <p class="clabel-xs">
+                        You will always make at least this amount from any offer
+                        we send.
+                      </p>
+
+                      <div class="offer-items">
+                        <span class="offer-item active">$5</span>
+                        <span class="offer-item">$10</span>
+                        <span class="offer-item">$25</span>
+                        <span class="offer-item">$50</span>
+                        <span class="offer-item">$100</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row-fixed pt-3 border-top">
+                  <button class="cbtn cbtn-red cbtn-md shadow-2">
+                    Update Settings
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/slider/bootstrap-slider.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script src="js/global.js"></script>
+    <script src="js/settings.js"></script>
+  </body>
+</html>
