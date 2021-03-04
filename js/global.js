@@ -1,4 +1,4 @@
-$(function () {
+function initInputNumber() {
   jQuery(
     '<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>'
   ).insertAfter(".cinput-number input");
@@ -31,5 +31,23 @@ $(function () {
       spinner.find("input").val(newVal);
       spinner.find("input").trigger("change");
     });
+  });
+}
+
+$(function () {
+  initInputNumber();
+
+  $("input:checkbox").on("click", function () {
+    // in the handler, 'this' refers to the box clicked on
+    var $box = $(this);
+    var group = "input:checkbox[name='" + $box.attr("name") + "']";
+
+    if ($box.is(":checked")) {
+      $(group).prop("checked", false);
+      $box.prop("checked", true);
+    } else {
+      $(group).prop("checked", true);
+      $box.prop("checked", false);
+    }
   });
 });

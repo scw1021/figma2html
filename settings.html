@@ -132,7 +132,7 @@
             <div class="col-xl-3 col-lg-6 col-sm-12 mb-4">
               <div class="ccard bg-white cshadow-1 h-100">
                 <h2 class="mb-4 mt-2 title">CONNECT POSHMARK</h2>
-                <button class="cbtn cbtn-red cbtn-sm cshadow-2">
+                <button class="btn cbtn cbtn-red cbtn-sm cshadow-2">
                   Connect Your PoshMark Account
                 </button>
               </div>
@@ -155,7 +155,7 @@
                     class="checkbox"
                   />
                   <label for="switch-poshmark" class="toggle">
-                    <p>Off&nbsp;&nbsp;On</p>
+                    <p>On&nbsp;&nbsp;Off</p>
                   </label>
                 </div>
               </div>
@@ -180,7 +180,7 @@
                       class="checkbox"
                     />
                     <label for="switch-unfollow" class="toggle">
-                      <p>Off&nbsp;&nbsp;On</p>
+                      <p>On&nbsp;&nbsp;Off</p>
                     </label>
                   </div>
                   <div id="share-details" class="w-100 mt-1">
@@ -193,7 +193,7 @@
                           class="checkbox"
                         />
                         <label for="switch-details-followers" class="toggle">
-                          <p>Off&nbsp;&nbsp;On</p>
+                          <p>On&nbsp;&nbsp;Off</p>
                         </label>
                       </div>
                     </span>
@@ -206,7 +206,7 @@
                           class="checkbox"
                         />
                         <label for="switch-details-parties" class="toggle">
-                          <p>Off&nbsp;&nbsp;On</p>
+                          <p>On&nbsp;&nbsp;Off</p>
                         </label>
                       </div>
                     </span>
@@ -228,7 +228,7 @@
                 <div class="switch">
                   <input type="checkbox" id="switch-closet" class="checkbox" />
                   <label for="switch-closet" class="toggle">
-                    <p>Off&nbsp;&nbsp;On</p>
+                    <p>On&nbsp;&nbsp;Off</p>
                   </label>
                 </div>
               </div>
@@ -257,16 +257,21 @@
                       class="checkbox"
                     />
                     <label for="switch-auto-follow" class="toggle">
-                      <p>Off&nbsp;&nbsp;On</p>
+                      <p>On&nbsp;&nbsp;Off</p>
                     </label>
                   </div>
 
                   <div id="panel-detail-af">
                     <p class="clabel-md mt-2">No. of Of Follower/Day</p>
                     <div class="slider-wrapper mt-3">
-                      <input type="text" class="range-slider" />
-                      <span class="slider-ticks min">10</span>
-                      <span class="slider-ticks max">2023</span>
+                      <input
+                        type="text"
+                        class="range-slider"
+                        min="1"
+                        max="4000"
+                      />
+                      <span class="slider-ticks min">1</span>
+                      <span class="slider-ticks max">4000</span>
                     </div>
                     <div class="cflex-row mt-3">
                       <div class="cflex-fixed checkbox-wrapper">
@@ -275,6 +280,8 @@
                           id="follower-random"
                           type="checkbox"
                           class="ml-4"
+                          name="follower_toggle"
+                          checked
                         />
                       </div>
 
@@ -284,6 +291,7 @@
                           id="follower-custom"
                           type="checkbox"
                           class="ml-4"
+                          name="follower_toggle"
                         />
                       </div>
                     </div>
@@ -330,18 +338,23 @@
                       class="checkbox"
                     />
                     <label for="switch-comment" class="toggle">
-                      <p>Off&nbsp;&nbsp;On</p>
+                      <p>On&nbsp;&nbsp;Off</p>
                     </label>
                   </div>
 
                   <div id="panel-detail-ac">
                     <p class="clabel-md mt-2">No. of Of Follower/Day</p>
                     <div class="slider-wrapper mt-3">
-                      <input type="text" class="range-slider" />
-                      <span class="slider-ticks min">10</span>
-                      <span class="slider-ticks max">2023</span>
+                      <input
+                        type="text"
+                        class="range-slider"
+                        min="1"
+                        max="50"
+                      />
+                      <span class="slider-ticks min">1</span>
+                      <span class="slider-ticks max">50</span>
                     </div>
-                    <div class="input-group mt-4 mb-3">
+                    <div class="input-group mt-4">
                       <div class="cinput-wrapper mb-3">
                         <div class="cinput-text">
                           <label for="">Description</label>
@@ -406,22 +419,12 @@
                           <i class="fas fa-times"></i>
                         </span>
                       </div>
-                      <div class="cinput-wrapper mb-3">
-                        <div class="cinput-text">
-                          <label for="">Description</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Comment"
-                          />
-                        </div>
-                        <div class="cinput-number">
-                          <input type="number" class="form-control" />
-                        </div>
-                        <span class="reset">
-                          <i class="fas fa-times"></i>
-                        </span>
-                      </div>
+                    </div>
+
+                    <div class="text-center w-100 mb-2">
+                      <button class="btn cbtn cbtn-red cbtn-sm w-25 btn-plus">
+                        <i class="fas fa-plus"></i>
+                      </button>
                     </div>
 
                     <div class="totals">
@@ -465,30 +468,42 @@
                   <div class="switch">
                     <input type="checkbox" id="switch-likes" class="checkbox" />
                     <label for="switch-likes" class="toggle">
-                      <p>Off&nbsp;&nbsp;On</p>
+                      <p>On&nbsp;&nbsp;Off</p>
                     </label>
                   </div>
 
                   <div id="panel-detail-al">
                     <p class="clabel-md mt-2">No. of Likes/Day</p>
                     <div class="slider-wrapper mt-3">
-                      <input type="text" class="range-slider" />
-                      <span class="slider-ticks min">10</span>
-                      <span class="slider-ticks max">2023</span>
+                      <input
+                        type="text"
+                        class="range-slider"
+                        min="1"
+                        max="4000"
+                      />
+                      <span class="slider-ticks min">1</span>
+                      <span class="slider-ticks max">4000</span>
                     </div>
                     <div class="cflex-row mt-3">
                       <div class="cflex-fixed checkbox-wrapper">
                         <span class="clabel-sm">Auto/Random</span>
                         <input
-                          id="follower-random"
+                          id="likes-random"
+                          name="likes_toggle"
                           type="checkbox"
                           class="ml-4"
+                          checked
                         />
                       </div>
 
                       <div class="cflex-fixed checkbox-wrapper">
                         <span class="clabel-sm">Custom</span>
-                        <input id="likes-custom" type="checkbox" class="ml-4" />
+                        <input
+                          id="likes-custom"
+                          name="likes_toggle"
+                          type="checkbox"
+                          class="ml-4"
+                        />
                       </div>
                     </div>
 
@@ -532,7 +547,7 @@
                       class="checkbox"
                     />
                     <label for="switch-bundle" class="toggle">
-                      <p>Off&nbsp;&nbsp;On</p>
+                      <p>On&nbsp;&nbsp;Off</p>
                     </label>
                   </div>
                 </div>
@@ -551,7 +566,7 @@
                   <div class="switch">
                     <input type="checkbox" id="switch-offer" class="checkbox" />
                     <label for="switch-offer" class="toggle">
-                      <p>Off&nbsp;&nbsp;On</p>
+                      <p>On&nbsp;&nbsp;Off</p>
                     </label>
                   </div>
 
@@ -601,7 +616,7 @@
                 </div>
 
                 <div class="row-fixed pt-3 border-top">
-                  <button class="cbtn cbtn-red cbtn-md shadow-2">
+                  <button class="btn cbtn cbtn-red cbtn-md shadow-2">
                     Update Settings
                   </button>
                 </div>
