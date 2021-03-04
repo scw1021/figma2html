@@ -42,10 +42,6 @@ $(function () {
     $("#user-selector-al").toggle();
   });
 
-  $("input[name=goal_toggle]").click(function () {
-    $("#user-selector-al").toggle();
-  });
-
   $("#switch-comment").click(function () {
     $(".ccard.auto-comments").toggleClass("h-100");
     toggleNode("#switch-comment", "#panel-detail-ac");
