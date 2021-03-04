@@ -104,6 +104,11 @@ $(function () {
             '<i class="fas fa-times ml-2 del-user"></i></span>'
         );
       $(this).val("");
+
+      $(".user .del-user").click(function () {
+        console.log("asdf");
+        $(this).parent().remove();
+      });
     }
   });
 
