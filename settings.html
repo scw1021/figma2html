@@ -155,7 +155,7 @@
                     class="checkbox"
                   />
                   <label for="switch-poshmark" class="toggle">
-                    <p>On&nbsp;&nbsp;Off</p>
+                    <p>On&nbsp;Off</p>
                   </label>
                 </div>
               </div>
@@ -180,7 +180,7 @@
                       class="checkbox"
                     />
                     <label for="switch-unfollow" class="toggle">
-                      <p>On&nbsp;&nbsp;Off</p>
+                      <p>On&nbsp;Off</p>
                     </label>
                   </div>
                   <div id="share-details" class="w-100 mt-1">
@@ -193,7 +193,7 @@
                           class="checkbox"
                         />
                         <label for="switch-details-followers" class="toggle">
-                          <p>On&nbsp;&nbsp;Off</p>
+                          <p>On&nbsp;Off</p>
                         </label>
                       </div>
                     </span>
@@ -206,7 +206,7 @@
                           class="checkbox"
                         />
                         <label for="switch-details-parties" class="toggle">
-                          <p>On&nbsp;&nbsp;Off</p>
+                          <p>On&nbsp;Off</p>
                         </label>
                       </div>
                     </span>
@@ -228,7 +228,7 @@
                 <div class="switch">
                   <input type="checkbox" id="switch-closet" class="checkbox" />
                   <label for="switch-closet" class="toggle">
-                    <p>On&nbsp;&nbsp;Off</p>
+                    <p>On&nbsp;Off</p>
                   </label>
                 </div>
               </div>
@@ -257,7 +257,7 @@
                       class="checkbox"
                     />
                     <label for="switch-auto-follow" class="toggle">
-                      <p>On&nbsp;&nbsp;Off</p>
+                      <p>On&nbsp;Off</p>
                     </label>
                   </div>
 
@@ -305,11 +305,11 @@
                       <div class="user-list">
                         <span class="user">
                           John Doe
-                          <i class="fas fa-times ml-2"></i>
+                          <i class="fas fa-times ml-2 del-user"></i>
                         </span>
                         <span class="user">
                           John Doe
-                          <i class="fas fa-times ml-2"></i>
+                          <i class="fas fa-times ml-2 del-user"></i>
                         </span>
                       </div>
                     </div>
@@ -338,7 +338,7 @@
                       class="checkbox"
                     />
                     <label for="switch-comment" class="toggle">
-                      <p>On&nbsp;&nbsp;Off</p>
+                      <p>On&nbsp;Off</p>
                     </label>
                   </div>
 
@@ -468,7 +468,7 @@
                   <div class="switch">
                     <input type="checkbox" id="switch-likes" class="checkbox" />
                     <label for="switch-likes" class="toggle">
-                      <p>On&nbsp;&nbsp;Off</p>
+                      <p>On&nbsp;Off</p>
                     </label>
                   </div>
 
@@ -516,11 +516,11 @@
                       <div class="user-list">
                         <span class="user">
                           John Doe
-                          <i class="fas fa-times ml-2"></i>
+                          <i class="fas fa-times ml-2 del-user"></i>
                         </span>
                         <span class="user">
                           John Doe
-                          <i class="fas fa-times ml-2"></i>
+                          <i class="fas fa-times ml-2 del-user"></i>
                         </span>
                       </div>
                     </div>
@@ -547,7 +547,7 @@
                       class="checkbox"
                     />
                     <label for="switch-bundle" class="toggle">
-                      <p>On&nbsp;&nbsp;Off</p>
+                      <p>On&nbsp;Off</p>
                     </label>
                   </div>
                 </div>
@@ -566,17 +566,23 @@
                   <div class="switch">
                     <input type="checkbox" id="switch-offer" class="checkbox" />
                     <label for="switch-offer" class="toggle">
-                      <p>On&nbsp;&nbsp;Off</p>
+                      <p>On&nbsp;Off</p>
                     </label>
                   </div>
 
                   <div id="panel-detail-ao">
-                    <div class="mt-4">
+                    <div class="mt-4 has-overlay">
                       <div class="checkbox-wrapper">
-                        <input id="follower-random" type="checkbox" />
+                        <input
+                          id="goal-dollar"
+                          type="checkbox"
+                          name="goal_toggle"
+                          checked
+                        />
                         <span class="clabel-lg ml-4"
                           >Profit goal in dollars</span
                         >
+                        <div class="overlay"></div>
                       </div>
                       <p class="clabel-xs">
                         You will always make at least this amount from any offer
@@ -592,12 +598,17 @@
                       </div>
                     </div>
 
-                    <div class="mt-5">
+                    <div class="mt-5 has-overlay">
                       <div class="checkbox-wrapper">
-                        <input id="follower-random" type="checkbox" />
+                        <input
+                          id="goal-percentage"
+                          type="checkbox"
+                          name="goal_toggle"
+                        />
                         <span class="clabel-lg ml-4"
-                          >Profit goal in dollars</span
+                          >Profit goal as percentage</span
                         >
+                        <div class="overlay"></div>
                       </div>
                       <p class="clabel-xs">
                         You will always make at least this amount from any offer

@@ -42,6 +42,10 @@ $(function () {
     $("#user-selector-al").toggle();
   });
 
+  $("input[name=goal_toggle]").click(function () {
+    $("#user-selector-al").toggle();
+  });
+
   $("#switch-comment").click(function () {
     $(".ccard.auto-comments").toggleClass("h-100");
     toggleNode("#switch-comment", "#panel-detail-ac");
@@ -85,5 +89,30 @@ $(function () {
     $(".cinput-wrapper .reset").click(function () {
       $(this).parent().remove();
     });
+  });
+
+  $(".user .del-user").click(function () {
+    console.log("asdf");
+    $(this).parent().remove();
+  });
+
+  $(".user-selector input").on("keydown", function (e) {
+    var keyCode = e.keyCode;
+    if (keyCode == 13) {
+      var name = $(this).val();
+      $(this)
+        .siblings(".user-list")
+        .append(
+          '<span class="user">' +
+            name +
+            '<i class="fas fa-times ml-2 del-user"></i></span>'
+        );
+      $(this).val("");
+    }
+  });
+
+  $(".offer-item").click(function () {
+    $(this).siblings().removeClass("active");
+    $(this).addClass("active");
   });
 });
