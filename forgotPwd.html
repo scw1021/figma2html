@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="login-form">
+      <!-- logo -->
+      <div class="logo-form border-bottom pl-4">LOGO</div>
+      <div class="logo-form-small">LOGO</div>
+      <div class="container" id="forgotForm">
+        <form
+          action="newPwd.html"
+          class="needs-validation forgot-form mx-auto"
+          novalidate
+        >
+          <span class="logo-forgot">RESET PASSWORD</span>
+          <div class="fogot-logo-spacer">
+            <span class="logo-forgot-small"
+              >Enter your email address to reset your password</span
+            >
+          </div>
+          <div class="form-group forgot-formspacer-email">
+            <input
+              type="email"
+              class="form-control"
+              id="input-email"
+              placeholder="Email"
+              name="uname"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="fogot-logo-spacer-small">
+            <span class="logo-forgot-pass"
+              ><a href="login.html" id="cancel-reset"
+                >I remember my Password! <b>Login Instead</b></a
+              ></span
+            >
+          </div>
+          <button type="submit" id="reset" class="btn btn-primary reset-bt">
+            Reset Password
+          </button>
+        </form>
+      </div>
+
+      <!-- footer -->
+      <div class="border-top footer">
+        <span class="footer-font d-flex justify-content-end"
+          >2020 (c) Copyright Company Name</span
+        >
+      </div>
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- form validation -->
+    <script src="js/login.js"></script>
+  </body>
+</html>

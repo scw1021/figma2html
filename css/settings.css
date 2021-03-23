@@ -113,6 +113,195 @@ input[name="goal_toggle"]:checked ~ .overlay {
   display: none;
 }
 
+#credentialsModal .modal-dialog{
+  width: 354px;
+  min-height:auto;
+  height: 624px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+#credentialsModal .modal-content{
+  height: inherit;
+  background-color: #583134;
+  border: none;
+  border-radius: inherit;
+}
+
+#credentialsModal .modal-header, #successmodal .modal-header{
+  border-bottom: none;
+  display: block;
+}
+
+#credentialsModal .modal-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  color: #FFFFFF;
+  font-size: 0.75rem;
+}
+
+#credentialsModal .cross-bt{
+  color: #FFFFFF;
+}
+
+#credentialsModal .modal-body{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+#credentialsModal .mark-font{
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-top: -15px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#credentialsModal .modal-form{
+  width: 260px;
+}
+
+#credentialsModal .spacer{
+  margin-top: 28px;
+}
+
+#credentialsModal .login-bt{
+  width: -webkit-fill-available;
+  border: none;
+  border-radius: 5px;
+  background-color: #7a454a;
+  color: #FFFFFF;
+  padding: 13px;
+}
+
+#credentialsModal .input-size{
+  padding: 20px; 
+}
+
+#credentialsModal .radius-maker{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; 
+}
+
+#credentialsModal .radius-destroyer{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px; 
+}
+
+#successmodal .modal-dialog{
+  width: 383px;
+  min-height:auto;
+  height: 204px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 250px auto;
+}
+
+#successmodal .modal-content{
+  height: inherit;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: inherit;
+}
+
+#successmodal .modal-body{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+#successmodal .modal-title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  color: #545454;
+  margin-top: 24px;
+}
+
+#successmodal .modal-content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  color: #545454;
+  margin-top: 18px;
+  font-size: 0.875rem;
+}
+
+#successmodal .cross-bt{
+  color: #262626;
+  padding:4px;
+}
+
+#successmodal .font-art{
+  color: #FFFFFF;
+}
+
+#wrapper .hidden{
+  display: none;
+}
+
+#mark {
+  position: absolute;
+  top: 0px;
+  left: 62px;
+  z-index: 3;
+  width: 27px;
+  height: 27px;
+}
+
+.logo-font{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.975rem;
+  line-height: 20px;
+  color: #545454;
+}
+
+.btn-font{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  margin-left: 10px;
+  color: #FFFFFF;
+}
+
+#avatar {
+  width: 55px;
+  height: 55px;
+}
+
+.radius-revise-maker{
+  background: #D93A30;
+  box-shadow: 0px 4px 30px rgba(0, 126, 249, 0.1);
+  border-radius: 20px;
+  margin-top: 15px;
+  padding: inherit;
+}
+
+.image-revise{
+  width: 13px;
+  height: 10px;
+}
+
+input {
+    border: none !important;
+    box-sizing: border-box;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
 @media (min-width: 768px) {
   .user-selector .user-list {
     min-height: 300px;
@@ -122,3 +311,4 @@ input[name="goal_toggle"]:checked ~ .overlay {
     margin-bottom: 0;
   }
 }
+

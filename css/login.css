@@ -1,75 +1,318 @@
-html,
-body {
-  height: 100%;
+#login-form .logo-form {
   font-family: Arial;
-  font-weight: normal;
   font-style: normal;
-}
-
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
+  font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 25px;
+  height: 55px;
+  width: 100%;
   display: flex;
-  -ms-flex-align: center;
-  -ms-flex-pack: center;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: center;
+  color: #3563B7;
+}
+
+#login-form .logo-form-small {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 32px;
+  width: 100%;
+  margin-top: 3.263rem;
+  display: flex;
   justify-content: center;
+  color: #3563B7;
 }
 
-input {
-  background: #FFFFFF !important;
-  border: 1px solid #3563B7 !important;
-  box-sizing: border-box;
-  border-radius: 5px !important;
-  padding: 10px 15px !important;
+#login-form .container{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: -60px;
 }
 
-.form-signin {
-  width: 450px;
-  padding: 45px;
-  margin: 0 auto;
+.container .form{
+  width: 456px;
+  padding: 38px 48px;
   background: #FFFFFF;
   box-shadow: 0px 10px 50px rgba(0, 99, 154, 0.12);
+  margin-top: 4.075rem;
+  margin-bottom: 150px;
 }
 
-.form-signin .title {
-  font-size: 26px;
+.container .form-register{
+  width: 456px;
+  padding: 38px 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 99, 154, 0.12);
+  margin-top: 4.075rem;
+  margin-bottom: 150px;
+  height: 675px;
+}
+
+.form .logo-formin, .form-register .logo-formin-register {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 1.375rem;
+  line-height: 25px;
+  color: #3563B7;
+}
+
+.form .formspace-outsite, .form-register .formspace-outsite-register {
+  margin-top: 1.813rem;
+}
+
+.formspace-outsite .google, .formspace-outsite-register .google-register{
+  width: -webkit-fill-available;
+  padding-right: 5px;
+}
+
+.google .spacer-google-block, .google-register .spacer-google-block-register {
+  margin-right: 1.007rem;
+}
+
+.google .spacer-google, .google-register .spacer-google-register {
+  margin-left: 0.894rem;
+}
+
+.formspace-outsite .facebook, .formspace-outsite-register .facebook-register {
+  width: -webkit-fill-available;
+  padding-left: 5px;
+}
+
+.facebook .spacer-facebook-block, .facebook-register .spacer-facebook-block-register {
+  margin-right: 1.007rem;
+}
+
+.facebook .spacer-facebook, .facebook-register .spacer-facebook-register {
+  margin-left: 0.894rem;
+}
+
+.form .formspacer-name, .form-register .formspacer-register-name {
+  margin-top: 1.875rem;
+}
+.form .formspacer-email, .form-register .formspacer-register-email {
+  margin-top: 2.813rem;
+}
+
+.form .formspacer-password, .form-register .formspacer-register-password {
+  margin-top: 2.813rem;
+}
+
+.form .formspacer-fogotten {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 14px;
+  margin-top: 0.625rem;
+  color: #3563B7;
+}
+
+.form .formspacer-signup {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 16px;
+  margin-top: 3.125rem;
+  color: #7BA5F3;
+}
+
+.form-register .formspacer-signup-register {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 16px;
+  margin-top: 60px;
+  color: #7BA5F3;
+}
+
+.form .sub-bt, .form-register .sub-bt-register{
+  width: -webkit-fill-available;
+  margin-top: 35px;
+  margin-bottom: 1.563rem;
+}
+.form .formspacer-or ,.form-register .formspacer-register-or{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 14px;
+  margin-top: 2.188rem;
+  color: #3563B7;
+}
+
+.footer .footer-font{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 14px;
+  color: #676767;
+}
+
+.container .forgot-form{
+  width: 456px;
+  padding: 38px 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 99, 154, 0.12);
+  margin-top: 4.075rem;
+  margin-bottom: 310px;
+  height: 398px;
+}
+
+#forgotForm .forgot-form .logo-forgot,
+#newpassForm .newpass-form .logo-newpass {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 1.625rem;
   line-height: 30px;
   color: #3563B7;
 }
 
-.form-signin .desc {
-  font-size: 12px;
+#forgotForm .forgot-form .fogot-logo-spacer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+#forgotForm .forgot-form .forgot-formspacer-email {
+  margin-top: 43px;
+}
+
+#forgotForm .forgot-form .logo-forgot-small {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
   line-height: 14px;
+  margin-top: 24px;
   color: #878787;
 }
 
-.form-signin .link-login {
-  color: #7BA5F3;
-  font-size: 14px;
+#forgotForm .forgot-form .fogot-logo-spacer-small {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#forgotForm .forgot-form .logo-forgot-pass,
+#newpassForm .newpass-form .logo-newpass-small {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 0.875rem;
   line-height: 16px;
+  color: #3563B7;
 }
 
-.form-signin button {
-  background: linear-gradient(91.51deg, #3563B7 21.88%, #007EF9 100.95%);
-  box-shadow: 0px 4px 25px rgba(63, 82, 253, 0.2);
-  border-radius: 5px;
-  font-size: 18px;
-  line-height: 20px;
-  text-transform: capitalize;
-  padding: 12px;
+#forgotForm .reset-bt,
+#newpassForm .update-bt {
+  width: -webkit-fill-available;
+  margin-top: 26px;
+  margin-bottom: 57px;
 }
 
-@media only screen and (max-width: 450px) {
-  .form-signin {
+.container .newpass-form{
+  width: 456px;
+  padding: 38px 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px rgba(0, 99, 154, 0.12);
+  margin-top: 4.075rem;
+  margin-bottom: 310px;
+  height: 477px;
+}
+
+#newpassForm .newpass-form .newpass-formspacer {
+  margin-top: 55px;
+}
+
+#newpassForm .newpass-form .confirm-newpass-formspacer {
+  margin-top: 45px;
+}
+
+#newpassForm .newpass-form .newpass-logo-spacer-small {
+  margin-top: 58px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 26px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+@media (max-width: 576px) {
+  #login-form .logo-form{
+    font-size: 0px !important;
+  }
+  .container .form{
+    box-shadow:none !important;
+    padding: 15px 25px;
     width: 100%;
-    padding: 30px !important;
-    box-shadow: none;
+  }
+  .container .forgot-form{
+    box-shadow:none !important;
+    padding: 15px 35px;
+    width: 100%;
+  }
+  #forgotForm .forgot-form .fogot-logo-spacer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: start;
   }
 
-  .form-signin .desc {
-    text-align: left !important;
+  #forgotForm .forgot-form .logo-forgot-small {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 14px;
+    margin-top: 1px !important;
+    color: #878787;
+  }
+
+  #forgotForm .forgot-form .forgot-formspacer-email {
+    margin-top: 57px !important;
+  }
+  .border-bottom {
+      border-bottom : none !important;
+  }
+  
+  .container .newpass-form{
+    box-shadow:none !important;
+    padding: 15px 35px;
+    width: 100%;
+  }
+
+  .container .form-register{
+    box-shadow:none !important;
+    padding: 15px 35px;
+    width: 100%;
   }
 }
+
+@media (min-width: 576px) {
+  #login-form .logo-form-small {
+    font-size: 0px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #login-form .google,
+  #login-form .facebook,
+  #login-form .google-register,
+  #login-form .facebook-register{
+    flex: 0 0 100%;
+    padding: 15px;
+  }
+}
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="login-form">
+      <!-- logo -->
+      <div class="logo-form border-bottom pl-4">LOGO</div>
+      <div class="logo-form-small">LOGO</div>
+
+      <div class="container" id="newpassForm">
+        <form
+          action="login.html"
+          class="needs-validation newpass-form mx-auto"
+          novalidate
+        >
+          <span class="logo-newpass">SET A NEW PASSWORD</span>
+          <div class="form-group newpass-formspacer">
+            <input
+              type="password"
+              class="form-control"
+              id="uname"
+              placeholder="New Password"
+              name="uname"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group confirm-newpass-formspacer">
+            <input
+              type="password"
+              class="form-control"
+              id="uname"
+              placeholder="Confirm Password"
+              name="uname"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="newpass-logo-spacer-small">
+            <span class="logo-newpass-small"
+              ><a href="login.html" id="cancel-reset"
+                >I remember my Password! <b>Login Instead</b></a
+              ></span
+            >
+          </div>
+          <button type="submit" class="btn btn-primary update-bt">
+            Update Password
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- form validation -->
+    <script src="js/login.js"></script>
+  </body>
+</html>

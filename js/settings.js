@@ -100,13 +100,12 @@ $(function () {
         .siblings(".user-list")
         .append(
           '<span class="user">' +
-            name +
-            '<i class="fas fa-times ml-2 del-user"></i></span>'
+          name +
+          '<i class="fas fa-times ml-2 del-user"></i></span>'
         );
       $(this).val("");
 
       $(".user .del-user").click(function () {
-        console.log("asdf");
         $(this).parent().remove();
       });
     }
@@ -116,4 +115,33 @@ $(function () {
     $(this).siblings().removeClass("active");
     $(this).addClass("active");
   });
+
+  $('#credentialsModal form').submit(function (e) {
+    e.preventDefault();
+    if ($('#user').val() && $('#pwd').val()) {
+      $('#credentialsModal').modal('hide');
+      $('#successmodal').modal('show');
+    }
+  });
+
+  $('#thankyou-bt').click(function (e) {
+    e.preventDefault();
+    $('div #exchange-div').html(
+      "<h2 class='mb-4 mt-2 title'>ACCOUNT CONNECTED</h2>" +
+      "<div class='row'>" +
+      "<div class='img-position col-5'>" +
+      "<img id='avatar' src='img/avatar-other.png'>" +
+      "<div><img id='mark' src='img/mark-rounded.png'></div>" +
+      "</div>" +
+      "<div class='col-7'>" +
+      "<div><span class='logo-font'>John Samuels</span></div>" +
+      "<button class='btn btn-danger radius-revise-maker'><img class='image-revise' src='img/svg/disconnected-chains.svg'><span class='btn-font'>Unlink</span></button>" +
+      "</div>" +
+      "</div>"
+    );
+    $('#successmodal').modal('hide');
+  });
+
 });
+
+

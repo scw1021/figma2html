@@ -1,0 +1,52 @@
+#page-content-wrapper .layout-top{
+	margin-top: 130px;
+}
+
+.layout-top .font-style1{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.375rem;
+	line-height: 25px;
+	margin-top: 39px;
+	color: #000000;
+}
+
+.layout-top .font-style2{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 21px;
+	margin-top: 8px;
+	color: #000000;
+}
+
+.layout-top .font-style3{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 0.875rem;
+	margin-top: 21px;
+	color: #D93A30;
+}
+
+.layout-top .btn-spacer{
+	margin-top: 32px;
+}
+
+.layout-top .btn-text{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 20px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.layout-top .btn-square{
+	width: 180px;
+	height: 50px;
+}

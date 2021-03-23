@@ -1,0 +1,526 @@
+#page-content-wrapper .billing-board{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 126, 249, 0.1);
+    padding: 19px;
+}
+
+#page-content-wrapper .billing-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #3563B7;
+}
+
+.billing-board .billing-sub-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #878787;
+}
+
+.billing-board .Bronze-panel,
+.billing-board .Bronze-panel-card {
+    background: linear-gradient(125.26deg, #076AA2 14.32%, #75BBFE 79.92%);
+    box-shadow: 0px 4px 30px rgba(0, 126, 249, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.billing-board .other-panel-silver{
+    background: #c6dff2;
+    box-shadow: 0px 4px 30px rgba(0, 126, 249, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.billing-board .item {
+    min-width: 250px !important;
+    padding: 0 15px;
+}
+
+.billing-board .other-panel-card {
+    background: #c6dff2;
+    box-shadow: 0px 4px 30px rgba(0, 126, 249, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.billing-board .other-panel-gold {
+    background: #c6dff2;
+    box-shadow: 0px 4px 30px rgba(0, 126, 249, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.billing-board .row{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.billing-board .title-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.billing-board .dolar-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.75rem;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.billing-board .perM{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size:0.625rem;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+#page-content-wrapper .btn-panel{
+    background: linear-gradient(121.45deg, #3563B7 15.16%, #9B99FF 95.47%);
+    box-shadow: 0px 4px 30px rgba(5, 42, 78, 0.2);
+    border-radius: 50px;
+    padding: 6px 16px;
+    border: none;
+}
+
+.billing-board .btn-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.billing-board .features-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.825rem;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.billing-board .features-font-small{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.825rem;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.billing-board .dot-color{
+    color: #FFFFFF;
+}
+
+i.fas {
+    display: inline-block;
+    border-radius: 60px;
+    font-size: 7px;
+}
+
+.billing-board .payment-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #878787;
+}
+
+.billing-board .card-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 0px; 
+}
+
+.btn-circle.btn-md-img { 
+    width: 31px; 
+    height: 31px; 
+    padding: 7px 10px; 
+    border-radius: 15.5px; 
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 0px; 
+} 
+
+.trash-color{
+    color: crimson;
+}
+
+#payment-card i.fas{
+    display: inline-block;
+    border-radius: 60px;
+    font-size: 30px;
+    color: crimson;
+}
+
+.billing-board .layout-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.billing-board .layout-bt{
+    margin-top: -33px;
+}
+
+.billing-board .credit-pass{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.billing-board .layout-chip{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.billing-board .layout-chipimg{
+    flex:0 1 40px;
+}
+
+.billing-board .card-chip-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.billing-board .default-card-font{
+    color:#3563B7 ;
+    font-size: 0.725rem;
+}
+
+.billing-board .addCard{
+    padding: 60px;
+}
+
+#page-content-wrapper .invoice-board{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 126, 249, 0.04); 
+    padding: 19px;  
+}
+
+.invoice-board .sub-board{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 126, 249, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.invoice-board .invoice-h-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
+
+.invoice-board .invoice-dollar-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 6px;
+    color: #545454;
+}
+
+.invoice-board .invoice-sub-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3563B7;
+}
+
+.invoice-board .invoice-sub-nc-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #878787;
+}
+
+.invoice-board .invoice-sub-c-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: crimson;
+}
+
+#search {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    z-index: 3;
+}
+
+#download {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    z-index: 3;
+}
+
+#page-content-wrapper .inline-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#shown-card .inline-layout-side{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#invoice-toggle i.fas {
+    display: inline-block;
+    border-radius: 60px;
+    font-size: 27px;
+}
+
+#invoice-toggle .sub-logo-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 25px;
+    color: #3563B7;
+}
+
+#shown-card .sub-logo-font {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    margin-left: 28px;
+    line-height: 25px;
+    color: #3563B7;
+}
+
+#page-content-wrapper .sub-name-font {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3563B7;
+}
+
+#invoice-toggle .sub-nc-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #878787;
+}
+
+#invoice-toggle .sub-c-font, #shown-card .sub-c-font{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3563B7;
+}
+
+#invoice-toggle .sub-border{
+    border: 1px solid #E7E8E5;
+}
+
+#invoice-toggle .sub-table-board{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 126, 249, 0.04);
+}
+
+#invoice-toggle .layout-creditCard-font{
+    margin-top: -35px;
+}
+
+#invoice-toggle .reviser{
+    padding: 12px;
+}
+
+#invoice-toggle {display: none;}
+
+#page-content-wrapper .layout-download-bt{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+    margin-top: 170px;
+}
+
+#page-content-wrapper #shown-card{
+    display: none;
+}
+
+#page-content-wrapper .addCard-board{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 126, 249, 0.04);
+    padding: 14px;
+}
+
+#shown-card i.fas {
+    display: inline-block;
+    border-radius: 60px;
+    font-size: 27px;
+}
+
+#shown-card .cinput-text input {
+    height: auto !important;
+    padding: 23px 15px 5px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 14px;
+    color: #878787;
+}
+
+#shown-card .cinput-text label {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 8px;
+    padding: 2px;
+    color: #3563b7;
+}
+
+#shown-card .addCard-bt{
+    background: linear-gradient(91.51deg, #3563B7 21.88%, #007EF9 100.95%);
+    box-shadow: 0px 4px 25px rgba(63, 82, 253, 0.2);
+    border-radius: 5px;
+    width: -webkit-fill-available;
+    padding: 15px;
+}
+
+#successmodal-silver .modal-dialog,
+#successmodal-gold .modal-dialog,
+#successmodal-bronze .modal-dialog
+{
+    width: 383px;
+    min-height: auto;
+    height: 204px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 300px auto;
+}
+
+#successmodal-silver .modal-content,
+#successmodal-gold .modal-content,
+#successmodal-bronze .modal-content
+{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    color: #545454;
+    margin-top: 18px;
+    font-size: 0.875rem;
+}
+
+#successmodal-silver .modal-body,
+#successmodal-gold .modal-body
+#successmodal-bronze .modal-body
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#successmodal-silver .modal-title,
+#successmodal-gold .modal-title,
+#successmodal-bronze .modal-title
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    color: #545454;
+    margin-top: 24px;
+}
+
+#successmodal-silver .cross-bt,
+#successmodal-gold .cross-bt,
+#successmodal-bronze .cross-bt
+{
+    color: #262626;
+    padding: 4px;
+}
+
+#successmodal-silver .modal-header,
+#successmodal-gold .modal-header,
+#successmodal-bronze .modal-header
+{
+    border-bottom: none;
+}
+
+#trash-bt i.fas{
+    line-height: 46px;
+}
+
+.card-layout{
+    display: flex;
+}
+
+.name-layout{
+    position: absolute;
+    bottom: 67px;
+    left: 110px;
+    right: 0;
+}
+
+@media (max-width:576px){
+    .card-layout{
+        display: block;
+    }
+    .container-fluid{
+        padding: 0px;
+    }
+}
+

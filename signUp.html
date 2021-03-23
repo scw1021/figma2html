@@ -26,46 +26,59 @@
       <div class="logo-form border-bottom pl-4">LOGO</div>
       <div class="logo-form-small">LOGO</div>
 
-      <!-- form -->
-      <div class="container" id="form">
+      <div class="container" id="signUp">
+        <!-- sign up -->
         <form
-          action="#"
-          id="form-signin"
-          class="needs-validation form mx-auto"
+          action="login.html"
+          class="needs-validation form-register mx-auto"
           novalidate
         >
-          <span class="logo-formin">LOGIN</span>
-          <div class="formspace-outsite row">
-            <div class="col google">
+          <span class="logo-formin-register">SIGN UP</span>
+          <div class="formspace-outsite-register row">
+            <div class="col google-register">
               <button type="button" class="btn btn-outline-danger btn-block">
-                <span class="spacer-google-block"
+                <span class="spacer-google-block-register"
                   ><img class="nav-icon" src="img/svg/google.svg" alt="" /><span
-                    class="spacer-google"
+                    class="spacer-google-register"
                     >Google</span
                   ></span
                 >
               </button>
             </div>
-            <div class="col facebook">
+            <div class="col facebook-register">
               <button type="button" class="btn btn-outline-info btn-block">
-                <span class="spacer-facebook-block"
+                <span class="spacer-facebook-block-register"
                   ><img
                     class="nav-icon"
                     src="img/svg/facebook.svg"
                     alt=""
-                  /><span class="spacer-facebook">Facebook</span></span
+                  /><span class="spacer-facebook-register">Facebook</span></span
                 >
               </button>
             </div>
           </div>
           <div>
-            <span class="formspacer-or d-flex justify-content-center">Or</span>
+            <span class="formspacer-register-or d-flex justify-content-center"
+              >Or</span
+            >
           </div>
-          <div class="form-group formspacer-email">
+          <div class="form-group formspacer-register-name">
+            <input
+              type="text"
+              class="form-control"
+              id="uname"
+              placeholder="Full Name"
+              name="uname"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group formspacer-register-email">
             <input
               type="email"
               class="form-control"
-              id="uname"
+              id="uemail"
               placeholder="Email"
               name="uname"
               required
@@ -73,7 +86,7 @@
             <div class="valid-feedback">Valid.</div>
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
-          <div class="form-group formspacer-password">
+          <div class="form-group formspacer-register-password">
             <input
               type="password"
               class="form-control"
@@ -86,24 +99,17 @@
             <div class="invalid-feedback">Please fill out this field.</div>
           </div>
           <div>
-            <span class="formspacer-fogotten d-flex justify-content-end"
-              ><a href="forgotPwd.html" id="forgot">Forgot Password?</a></span
-            >
-          </div>
-          <div>
-            <span class="formspacer-signup d-flex justify-content-center"
-              ><a href="signUp.html" id="signup"
-                >Dont have an account? <b>Sign Up</b></a
+            <span
+              class="formspacer-signup-register d-flex justify-content-center"
+              ><a href="login.html" id="cancel-signup"
+                >Already have an account? <b>Login</b></a
               ></span
             >
           </div>
-          <button type="submit" class="btn btn-primary sub-bt">Submit</button>
+          <button type="submit" class="btn btn-primary sub-bt-register">
+            Submit
+          </button>
         </form>
-      </div>
-
-      <!-- footer -->
-      <div class="border-top footer">
-        <span class="footer-font">2020 (c) Copyright Company Name</span>
       </div>
     </div>
     <script src="vendor/jquery/jquery.min.js"></script>

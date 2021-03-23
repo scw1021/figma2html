@@ -130,9 +130,14 @@
         <div class="container-fluid cflex">
           <div class="row row-fixed d-flex d-flex-wrap">
             <div class="col-xl-3 col-lg-6 col-sm-12 mb-4">
-              <div class="ccard bg-white cshadow-1 h-100">
+              <div class="ccard bg-white cshadow-1 h-100" id="exchange-div">
                 <h2 class="mb-4 mt-2 title">CONNECT POSHMARK</h2>
-                <button class="btn cbtn cbtn-red cbtn-sm cshadow-2">
+                <button
+                  id="modal-popup-bt"
+                  class="btn cbtn cbtn-red cbtn-sm cshadow-2"
+                  data-toggle="modal"
+                  data-target="#credentialsModal"
+                >
                   Connect Your PoshMark Account
                 </button>
               </div>
@@ -635,15 +640,113 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- /#page-content-wrapper -->
-    </div>
-    <!-- /#wrapper -->
 
+        <!-- #CredentialsModel -->
+        <div class="modal fade" id="credentialsModal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  <span class="cross-bt">&times;</span>
+                </button>
+                <h4 class="modal-title text-center">Enter your credentials</h4>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form class="modal-form">
+                  <div class="form-group">
+                    <img class="mx-auto d-block" src="img/mark.png" />
+                  </div>
+
+                  <div class="form-group">
+                    <span class="mark-font">POSHMARK</span>
+                  </div>
+
+                  <div class="input-group rounded-left">
+                    <input
+                      id="user"
+                      class="form-control border-right-0 input-size"
+                      type="text"
+                      placeholder="Username or Email"
+                      required
+                    />
+                    <span
+                      class="input-group-append bg-white border-left-0 radius-maker"
+                    >
+                      <span class="input-group-text bg-transparent">
+                        <i class="fas fa-lock"></i>
+                      </span>
+                    </span>
+                  </div>
+
+                  <div class="input-group rounded-right spacer">
+                    <input
+                      id="pwd"
+                      class="form-control border-right-0 input-size"
+                      type="password"
+                      placeholder="Password"
+                      required
+                    />
+                    <span
+                      class="input-group-append bg-white border-left-0 radius-maker"
+                    >
+                      <span class="input-group-text bg-transparent">
+                        <i class="far fa-eye-slash"></i>
+                      </span>
+                    </span>
+                  </div>
+
+                  <div class="form-group">
+                    <input
+                      type="submit"
+                      name=""
+                      value="Login"
+                      class="login-bt spacer"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <a href="#" class="modal-title spacer">Forgot password?</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- #successmodal -->
+        <div class="modal fade" id="successmodal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  <span class="cross-bt">&times;</span>
+                </button>
+                <h4 class="modal-title text-center">
+                  <b>CONGRATULATIONS!!!</b>
+                </h4>
+                <span class="modal-content"
+                  >Your PoshMArk Account Is Connected Successfully</span
+                >
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                <button class="btn btn-primary font-art" id="thankyou-bt">
+                  Thank You!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/slider/bootstrap-slider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script src="js/global.js"></script>
